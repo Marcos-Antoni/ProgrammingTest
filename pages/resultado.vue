@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { questionsType } from "~/components/types/types";
+import type { questionsType } from "../components/types/types";
 import { getLocalStorage } from "../components/SubComponents/localStorage";
 
 const questions = ref<questionsType[]>([]);
